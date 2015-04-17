@@ -16,6 +16,8 @@
 		255A29901AE02CF6002B62BA /* MetroCollectionLayoutSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255A298F1AE02CF6002B62BA /* MetroCollectionLayoutSampleTests.m */; };
 		255A299C1AE02DB0002B62BA /* MetroCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 255A299B1AE02DB0002B62BA /* MetroCollectionLayout.m */; };
 		255A29A01AE02DF5002B62BA /* MetroCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 255A299F1AE02DF5002B62BA /* MetroCollectionViewCell.m */; };
+		256A46441AE19BE800BD370F /* Layout_Phone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 256A46431AE19BE800BD370F /* Layout_Phone.jpg */; };
+		256A46461AE19BF600BD370F /* Layout_Pad.png in Resources */ = {isa = PBXBuildFile; fileRef = 256A46451AE19BF600BD370F /* Layout_Pad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		255A299B1AE02DB0002B62BA /* MetroCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroCollectionLayout.m; sourceTree = "<group>"; };
 		255A299E1AE02DF5002B62BA /* MetroCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetroCollectionViewCell.h; path = Views/MetroCollectionViewCell.h; sourceTree = "<group>"; };
 		255A299F1AE02DF5002B62BA /* MetroCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetroCollectionViewCell.m; path = Views/MetroCollectionViewCell.m; sourceTree = "<group>"; };
+		256A46431AE19BE800BD370F /* Layout_Phone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Layout_Phone.jpg; sourceTree = "<group>"; };
+		256A46451AE19BF600BD370F /* Layout_Pad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Layout_Pad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 		255A29671AE02CF6002B62BA = {
 			isa = PBXGroup;
 			children = (
+				256A46421AE19BD400BD370F /* images */,
 				255A29991AE02DB0002B62BA /* MetroCollectionLayout */,
 				255A29721AE02CF6002B62BA /* MetroCollectionLayoutSample */,
 				255A298C1AE02CF6002B62BA /* MetroCollectionLayoutSampleTests */,
@@ -143,6 +148,15 @@
 				255A299F1AE02DF5002B62BA /* MetroCollectionViewCell.m */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		256A46421AE19BD400BD370F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				256A46451AE19BF600BD370F /* Layout_Pad.png */,
+				256A46431AE19BE800BD370F /* Layout_Phone.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +240,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				255A297F1AE02CF6002B62BA /* Main.storyboard in Resources */,
+				256A46461AE19BF600BD370F /* Layout_Pad.png in Resources */,
 				255A29841AE02CF6002B62BA /* LaunchScreen.xib in Resources */,
+				256A46441AE19BE800BD370F /* Layout_Phone.jpg in Resources */,
 				255A29811AE02CF6002B62BA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
